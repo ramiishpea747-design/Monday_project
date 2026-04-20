@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Restaurant</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* Universal selector */
+        * {
+            font-family: Arial;
+        }
+
+        /* ID selector */
+        #logo {
+            color: darkred;
+            text-align: center;
+        }
+
+        /* Class selector */
+        .special {
+            color: green;
+            font-weight: bold;
+        }
+
+        /* Descendant selector */
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: rgb(50, 50, 50);
+            text-align: center;
+        }
+
+        header, footer {
+            background-color: hsl(200, 50%, 50%);
+            text-align: center;
+            padding: 10px;
+        }
+
+        main {
+            background-color: rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1 id="logo">My Restaurant</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+    </ul>
+</nav>
+
+<main>
+    <div>
+        <h2 style="color: blue;">Welcome</h2> <!-- Inline CSS -->
+        <p>This is our restaurant website.</p>
+    </div>
+
+    <div>
+        <h3>Top 3 Best Sellers</h3>
+        <ol>
+            <li>Pizza</li>
+            <li>Burger</li>
+            <li>Pasta</li>
+        </ol>
+    </div>
+
+    <div class="special">
+        <p>Special Offer: 20% Discount!</p>
+    </div>
+</main>
+
+<footer>
+    <p>© 2026 My Restaurant</p>
+</footer>
+
+</body>
+</html>
+  
+  
